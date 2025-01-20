@@ -9,14 +9,17 @@ Log calories for breakfast, lunch, dinner, snacks, and exercise.
 Add multiple food or exercise entries for each category.
 Calculate the remaining calories based on the budget and the logged data.
 Clear all entries and reset the form.
-Technologies
+
+## Technologies
 HTML: Structure of the application, including forms, input fields, and buttons.
 CSS: Styling to create a visually appealing user interface.
 JavaScript: Handles the logic for adding entries, calculating calories, and displaying results.
-Installation
+
+## Installation
 Download or clone the repository.
 Open the index.html file in a web browser to start using the application.
-File Structure
+
+## File Structure
 bash
 Copy
 Edit
@@ -24,13 +27,17 @@ Edit
     ├── index.html      # Main HTML file
     ├── styles.css      # CSS styles for the UI
     └── script.js       # JavaScript file handling app functionality
-How to Use
-Set your Budget: Enter your daily calorie budget in the "Budget" input field.
-Add Entries: Use the dropdown menu to select a category (Breakfast, Lunch, Dinner, Snacks, or Exercise). For each category, you can add food or exercise entries with their respective calorie values.
-Calculate Remaining Calories: Once you've added your entries, click on "Calculate Remaining Calories" to see if you are in a calorie deficit or surplus.
-Clear: Click on "Clear" to reset all fields and remove all entered data.
-Explanation of Key Functions
-addEntry()
+
+
+## How to Use
+ - Set your Budget: Enter your daily calorie budget in the "Budget" input field.
+ - Add Entries: Use the dropdown menu to select a category (Breakfast, Lunch, Dinner, Snacks, or Exercise). For each category, you can add food or exercise entries with their respective calorie values.
+ - Calculate Remaining Calories: Once you've added your entries, click on "Calculate Remaining Calories" to see if you are in a calorie deficit or surplus.
+ - Clear: Click on "Clear" to reset all fields and remove all entered data.
+
+## Explanation of Key Functions
+
+### addEntry()
 This function adds a new entry for either food or exercise under the selected category (Breakfast, Lunch, Dinner, Snacks, or Exercise). It dynamically generates input fields for the name and calorie count of the item and appends them to the relevant category.
 
 Example:
