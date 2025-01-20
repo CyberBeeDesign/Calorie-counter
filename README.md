@@ -1,5 +1,6 @@
 # Calorie Counter Project
 
+![Readme img](https://github.com/user-attachments/assets/6b516a3f-d0de-4a33-891c-29e9b3337cf0)
 
 
 ## Overview
